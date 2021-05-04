@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'SDF';
+    src:url("/fonts/IRANSansWeb_Light.woff") format("woff");
+    font-weight: normal;
+}
+
+.tahoma *, .tahoma {
+    font-family: tahoma !important;
+}
+
+*, .ui {
+    font-family: SDF;
+    font-weight: 300;
+}
+
+.iransans_bold {
+    font-family: SDF !important;
+    font-weight: bold;
+}
+
+.auto-scroll-y{
+    overflow-y: auto !important;
+}
+.hide-overflow-x{
+    overflow-x: hidden !important;
+}
+.red-custom {
+    background: #2d88af !important;
+}
+
+select {
+    padding: 1px 5px !important;
+    height: 38px !important;
+}
+
+.timer {
+    direction: ltr;
+}
+
+.jst-hours, .jst-minutes, .jst-seconds {
+    display: inline-block;
+}
+
+.dimmer.modals {
+    overflow-y: scroll !important;
+}
+.add-item-box{
+    border: 2px dashed #eeeeee;
+    padding: 10px;
+    text-align: center;
+}
+.add-item-box:hover{
+    border-color: blue;
+}
+.invisible{
+    display:none;
+}
+.segment-lime-border{
+    border-top: 2px solid #b5cc18 !important;
+}
+.segment-pink-border{
+    border-top: 2px solid #e91e63 !important;
+}
+.chats-box-container {
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+    z-index: 9999999;
+}
+
+.chat-message-box {
+    position: absolute !important;
+    bottom: 0px;
+    background: white;
+    width: 100%;
+}
+
+.chats-box-container .relative-box {
+    position: relative;
+    min-height: 46px;
+}
+
+.chats-box-container .person-box .chat-message-content, .chats-box-container .person-box .setting-box {
+    height: 375px;
+}
+
+.chats-box-container .person-box .chat-message-content .nano {
+    height: 270px;
+    margin-bottom: 16px !important;
+}
+.chats-box-container .person-box .chat-message-content{
+    background: url('/img/pattern.jpg') !important;
+}
+.chats-box-container .person-box .chat-message-content .nano-content {
+    right: 0px !important;
+    left: 0px;
+    overflow-y: scroll !important;
+}
+
+@media only screen and (min-width: 993px) {
+    .chats-box-container .person-box .chat-message-content .nano-content {
+        left: -17px !important;
+    }
+}
+
+.chat-form {
+    overflow: hidden;
+    height: 69px;
+    background: white !important;
+    border-top: 1px solid rgba(34, 36, 38, .15);
+}
+
+.person-box .text-box {
+    width: 104% !important;
+    max-width: 104% !important;
+    resize: none;
+    overflow-y: auto;
+    height: 53px;
+    overflow-x: hidden;
+}
+
+.chat-form .upload-btn {
+    position: relative;
+    top: 17px;
+    right: 9px;
+}
+
+.other-side-user {
+    direction: ltr !important;
+}
+
+.other-side-user .content {
+    padding-left: 40px !important;
+}
+.notification-item .item.unread{
+    background: red !important;
+}
+.ui.menu .ui.dropdown .menu > .item.unread{
+    background: #eeeeee !important;
+}
+.nano-content{
+    right: 18px !important;
+}
+.peoples-box .nano-content{
+    left: -18px !important;
+}
+.g-recaptcha div,.rc-anchor,.g-recaptcha iframe{
+    width:100% !important
+}
+.ui.button.custom-green,.custom-green{
+    background: #a9c800 !important;
+}
+.segment-lime-border{
+    border-top: 2px solid #b5cc18 !important;
+}
+.segment-pink-border{
+    border-top: 2px solid #e91e63 !important;
+}
+.avatar-img{
+    width:100px !important;
+    height:100px !important;
+    border-radius: 100px !important;
+}

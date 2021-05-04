@@ -1,0 +1,7 @@
+.account-box{
+    padding: 20px;
+    background: rgb(61,182,142);
+    background: linear-gradient(0deg, rgba(61,182,142,1) 0%, rgba(62,219,154,1) 27%, rgba(96,228,155,1) 47%, rgba(119,230,215,1) 72%, rgba(66,163,187,1) 100%);
+    border-radius: 8px;
+    visibility: hidden;
+}

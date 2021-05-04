@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fa">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Arman Mozaffari">
+        <meta name="generator" content="Phpstorm Jetbrains 2019"/>
+        <title>login</title>
+        <meta name="Content-Language" content="persian">
+        <meta http-equiv="content-language" content="fa" />
+        <link href="/css/builds/d41d8cd98f00b204e9800998ecf8427e0.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="login/css/semantic.rtl.css"/>
+        <link rel="stylesheet" href="login/css/semantic_icon/icon.min.css"/>
+        <link rel="stylesheet" href="login/css/jquery.sweet-modal.min.css"/>
+        <link rel="stylesheet" href="login/css/responsive.css"/>
+        <link rel="stylesheet" href="login/css/force_style.css"/>
+        <link rel="stylesheet" href="login/css/style.css"/>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link rel="apple-touch-icon" sizes="57x57" href="/img/karito_favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/img/karito_favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/img/karito_favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/img/karito_favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/img/karito_favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/img/karito_favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/img/karito_favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/img/karito_favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/karito_favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/img/karito_favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/karito_favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/img/karito_favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/karito_favicon/favicon-16x16.png">
+        <meta name="msapplication-TileImage" content="/img/karito_favicon/ms-icon-144x144.png">
+        <link rel="manifest" href="/img/karito_favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+
+        <meta name="description" content="">
+        <meta name="keyword" content="">
+        <meta name="canonical" content="">
+
+        <meta property="og:title" content="ورود به کاریتو">
+        <meta property="og:site_name" content="vilapila rent villa hotel suite">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://karito.ir/account/login">
+        <meta property="og:image" content="https://karito.ir/uploaded_files/logo06-Sew.png">
+        <meta property="og:description" content="">
+        <meta name="twitter:site" content="@Karito">
+        <meta name="twitter:title" content="ورود به کاریتو">
+        <meta name="twitter:description" content="">
+        <meta name="twitter:image" content="https://karito.ir/uploaded_files/logo06-Sew.png">
+        <meta name="twitter:card" content="ورود به کاریتو">
+        <meta name="twitter:image:alt" content="ورود به کاریتو">
+
+        <meta name="google-site-verification" content="f_XAoFisUJBPGCeLdXB8uCJAYkA03yARtv-fT8VD3AM"/>
+            <style>
+        @media  only screen and (max-width: 992px) {
+            .login-box h1 {
+                font-size: 12pt;
+            }
+        }
+
+        @media  only screen and (min-width: 993px) {
+        }
+
+        .account-box {
+            height: inherit !important;
+        }
+    </style>
+    <link rel="stylesheet" href="login/css/present.css"/>
+                <style>
+
+            .ka-card, iframe {
+                -webkit-box-shadow: 0px 0px 12px 0px rgba(55, 73, 72, 0.06) !important;
+                box-shadow: 0px 0px 12px 0px rgba(55, 73, 72, 0.06) !important;
+                border-radius: 15px !important;
+                -webkit-border-radius: 15px !important;
+                border: none !important;
+                overflow: hidden;
+            }
+            .login-button{
+                border:2px solid white !important;
+                background: transparent !important;
+                border-radius: 30px !important;
+                color:white !important;
+            }
+            .login-button:hover{
+                background: #ffd600 !important;
+                border-color:#ffd600 !important;
+            }
+            hr {
+                background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, .15), transparent);
+                background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, .15), transparent);
+                border: 0;
+                height: 1px;
+                margin: 22px 0;
+            }
+            .ui.button.custom-green, .custom-green {
+                background: #7b1fa2 !important;
+            }
+
+            .ui.button.custom-blue, .custom-yellow {
+                background: #ffc107 !important;
+            }
+            .bold{
+                font-weight: bold !important;
+            }
+            header .ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover{
+                background: inherit !important;
+            }
+        </style>
+    </head>
+    <body dir="rtl" class="row" style="overflow-x: hidden ;background: rgb(222,235,223);
+background: linear-gradient(90deg, rgba(222,235,223,1) 0%, rgba(220,252,233,1) 27%, rgba(225,247,219,1) 47%, rgba(216,243,249,1) 74%, rgba(230,246,250,1) 100%);">
+            <div class="account-page-container">
+        <div class="header-background z-depth-5"></div>
+        <div class="ui container">
+            <div class="ui stackable grid">
+                <div class="four wide column center-align pad-10">
+                    <div class="hide-on-large-only">
+                        <a href="/" class="max-width">
+                            <img style="margin:10px auto;width:50px;" src="login/img/logo.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="eight wide column pad-50 no-pad-on-mobile">
+                    
+                    <div class="account-box z-depth-5 pad-h-10-on-mob">
+                        <form method="post" class="content sign_in">
+                            <h1 class="white-text center-align no-marg"> ورود به حساب کاربری</h1>
+                            <div class="center-align">
+                                <img src="login/img/user-placeholder.png" style="width:130px;margin: 40px auto">
+                            </div>
+                            <div class="ui large form">
+
+                                <div class="field">
+                                    <label class="white-text iransans_bold">ایمیل یا نام کاربری</label>
+                                    <input class="txt-input" name="email" type="text" dir="ltr">
+                                </div>
+                                <div class="field">
+                                    <label class="white-text iransans_bold">رمز عبور</label>
+                                    <input class="txt-input" name="password" type="password" dir="ltr">
+                                </div>
+                                                                <div class="left-align marg-top-20">
+                                    <button class="ui submit button no-marg template-green-button" style="min-width: 150px;">
+                                        ورود
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="ui two columns grid marg-top-20">
+                                <div class="column right-align">
+                                    <a class="size-9 white-text" href="/register/account/register.html">
+                                        ثبت نام نکرده ام
+                                    </a>
+                                </div>
+                                <div class="column left-align">
+                                    <a class="size-9 white-text" href="/remember/account/remember.html">فراموشی رمز عبور</a>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="bg"></div>
+                    </div>
+                </div>
+                <div class="three wide column pad-50">
+                    <div class="hide-on-med-and-down">
+                        <a href="/">
+                            <img class="max-width" src="login/img/logo.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    
+    
+    
+    
+    
+    
+    
+
+            <script type="text/javascript" src="login/js/jquery-2.1.4.min.js"></script>
+            <script type="text/javascript" src="login/js/semantic.min.js"></script>
+            <script type="text/javascript" src="login/js/jquery.sweet-modal.min.js"></script>
+            <script type="text/javascript" src="login/js/jquery.simple.timer.js"></script>
+            <script type="text/javascript" src="login/js/jquery.maskMoney.min.js"></script>
+            <script type="text/javascript" src="login/script/plugins.js"></script>
+            <script type="text/javascript" src="login/script/app.js"></script>
+            <script>
+        $(window).load(function () {
+            $('.account-box')
+                .transition({
+                    animation: 'horizontal flip',
+                    duration: 800,
+                    reverse: false,
+                    interval: 200
+                })
+        })
+        $('form.sign_in').form({
+            on: 'blur',
+            inline: true,
+            fields: {
+                email: {
+                    identifier: 'email',
+                    rules: [
+                        {
+                            type: 'empty',
+                            prompt: 'لطفا ایمیل یا نام کاربری خود را وارد کنید'
+                        }
+                    ]
+                },
+                password: {
+                    identifier: 'password',
+                    rules: [
+                        {
+                            type: 'empty',
+                            prompt: 'لطفا رمز عبور را وارد کنید'
+                        },
+                        {
+                            type: 'minLength[6]',
+                            prompt: 'رمز عبور باید حداقل 6 کاراکتر باشد'
+                        },
+                        {
+                            type: 'maxLength[16]',
+                            prompt: 'رمز عبور باید حداکثر 16 کاراکتر باشد'
+                        },
+                    ]
+                }
+            }
+        });
+
+    </script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=fa'></script>
+
+        <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', "UA-116676703-1", 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script async type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "url": "https://karito.ir/projects",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://karito.ir/projects?q={search_term_string}",
+                "query-input": "required search_term_string"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "Karito",
+ "url" : "https://karito.ir",
+ "sameAs" : [
+   "https://www.facebook.com/karitoplus/",
+   "https://twitter.com/karito_ir",
+   "https://www.linkedin.com/in/karito-office/",
+   "https://www.instagram.com/karito.ir/",
+   "https://t.me/karito_ir"
+   ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "تهران - خ قائم مقام - کوی 22 -پ1 - ط3 -واحد8",
+    "addressRegion": "FA",
+    "postalCode": "94040",
+    "addressCountry": "IR"
+  }
+}
+</script>
+        </html>

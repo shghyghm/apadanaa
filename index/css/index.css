@@ -1,0 +1,138 @@
+body{
+
+    direction: rtl;
+    overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            min-width: 320px;
+            background: #FFF;
+            font-size: 14px;
+            line-height: 1.4285em;
+            color: rgba(0,0,0,.87);
+    }
+.header-background {
+    position: fixed;
+    z-index: 0;
+    left: -159px;
+    top: 0px;
+    height: 800px;
+    width: 150%;
+    background-image: linear-gradient(#337C15, #328012, #2D9105);
+    border-bottom-left-radius: 100%;
+    direction: rtl;
+
+}
+.header-background-shadow {
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+}
+.a{
+    display: flex;
+    margin-top: 50px;
+
+}
+.header-content {
+    margin-right: 100px;
+    position: relative;
+    z-index: 10 !important;
+    color: white;
+    box-sizing: inherit;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .ui.container {
+
+        width: 933px;
+        margin-right: auto!important;
+        margin-left: auto!important;
+    }
+   
+
+}
+
+
+.ui.container {
+    display: block;
+    max-width: 100%!important;
+}
+.ui.secondary.menu {
+    background: none;
+    margin-right: .35714286em;
+    margin-left: .35714286em;
+    border-radius: 0em;
+    border: none;
+    box-shadow: none;
+}
+
+.ui.menu:first-child {
+    margin-top: 0rem;
+}
+.ui.menu {
+    font-size: 1rem;
+}
+.ui.menu .item {
+    position: relative;
+    vertical-align: middle;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: none;
+    padding: .92857143em 1.14285714em;
+    text-transform: none;
+    color: rgba(0,0,0,.87);
+    font-weight: 400;
+
+}
+
+.ui.menu:not(.vertical) .right.item, .ui.menu:not(.vertical) .right.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto!important;
+}
+.ui.button {
+
+    background-color: none; /* Green */
+    border: none;
+    color: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    
+    color: black; 
+    border: 2px solid white;
+  
+}
+.ui.button:hover{
+
+    background-color: orange;
+    border: orange;
+    }
+
+    .ui.grid {
+        display: flex;
+        margin-top: -1rem;
+        margin-bottom: -1rem;
+        margin-right: -1rem;
+        margin-left: -1rem;
+    }
